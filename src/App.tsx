@@ -45,7 +45,7 @@ const games: Game[] = [
   {
     title: 'Chain',
     description: 'Create word chains by filling in the missing vowels',
-    url: 'https://qw-chain6.netlify.app',
+    url: 'https://qw-chain.netlify.app',
     icon: <Link className="w-8 h-8" />,
     color: 'bg-green-500',
     darkColor: 'dark:bg-green-600',
