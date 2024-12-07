@@ -87,7 +87,7 @@ const games: Game[] = [
   {
     title: 'Shape',
     description: 'Solve the puzzle by fitting shapes in the available space',
-    url: 'https://qw-shape-7.netlify.app',
+    url: 'https://qw-shape-9.netlify.app',
     icon: <Shapes className="w-8 h-8" />,
     color: 'bg-orange-500',
     darkColor: 'dark:bg-orange-600',
