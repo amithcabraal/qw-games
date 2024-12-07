@@ -53,7 +53,7 @@ const games: Game[] = [
   {
     title: 'Atlas',
     description: 'Challenge friends in this multiplayer geography adventure',
-    url: 'https://qw-altas2.netlify.app',
+    url: 'https://qw-atlas2.netlify.app',
     icon: <Globe2 className="w-8 h-8" />,
     color: 'bg-indigo-500',
     darkColor: 'dark:bg-indigo-600',
