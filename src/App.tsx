@@ -34,6 +34,7 @@ const games: Game[] = [
     color: 'bg-blue-500',
     darkColor: 'dark:bg-blue-600',
   },
+  /*
   {
     title: 'Intro',
     description: 'How fast can you recognize these famous song intros?',
@@ -42,6 +43,7 @@ const games: Game[] = [
     color: 'bg-purple-500',
     darkColor: 'dark:bg-purple-600',
   },
+  */
   {
     title: 'Chain',
     description: 'Create word chains by filling in the missing vowels',
@@ -117,8 +119,40 @@ const games: Game[] = [
   {
     title: 'Boxes',
     description: 'Classic dots and boxes game',
-    url: 'https://qw-boxes.netlify.app',
+    url: 'https://qw-boxes-7.netlify.app',
     icon: <Square className="w-8 h-8" />,
+    color: 'bg-violet-500',
+    darkColor: 'dark:bg-violet-600',
+  },
+   {
+    title: 'Celeb',
+    description: 'Name the celebrity',
+    url: 'https://qw-secret-santa.netlify.app',
+    icon: <Square className="w-8 h-8" />,
+    color: 'bg-violet-500',
+    darkColor: 'dark:bg-violet-600',
+  },
+     {
+    title: 'First',
+    description: 'Which came first',
+    url: 'https://qw-firsts-4.netlify.app',
+    icon: <Square className="w-8 h-8" />,
+    color: 'bg-violet-500',
+    darkColor: 'dark:bg-violet-600',
+  },
+       {
+    title: 'Search',
+    description: 'Solve the wordsearch',
+    url: 'https://qw-search-3.netlify.app',
+    icon: <Search className="w-8 h-8" />,
+    color: 'bg-violet-500',
+    darkColor: 'dark:bg-violet-600',
+  },
+         {
+    title: 'Equal',
+    description: 'Get the biggest balancing equation',
+    url: 'https://qw-equal-9.netlify.app',
+    icon: <Search className="w-8 h-8" />,
     color: 'bg-violet-500',
     darkColor: 'dark:bg-violet-600',
   },
