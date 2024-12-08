@@ -135,7 +135,7 @@ const games: Game[] = [
      {
     title: 'First',
     description: 'Which came first',
-    url: 'https://qw-firsts-4.netlify.app',
+    url: 'https://qw-first-5.netlify.app',
     icon: <Square className="w-8 h-8" />,
     color: 'bg-violet-500',
     darkColor: 'dark:bg-violet-600',
