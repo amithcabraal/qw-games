@@ -71,7 +71,7 @@ const games: Game[] = [
   {
     title: 'Cross Tree',
     description: 'Strategic tree placement puzzle',
-    url: 'https://qw-cross-tree-6.netlify.app',
+    url: 'https://qw-cross-tree-7.netlify.app',
     icon: <TreePine className="w-8 h-8" />,
     color: 'bg-emerald-500',
     darkColor: 'dark:bg-emerald-600',
