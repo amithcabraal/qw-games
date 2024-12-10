@@ -156,6 +156,14 @@ const games: Game[] = [
     color: 'bg-violet-500',
     darkColor: 'dark:bg-violet-600',
   },
+  {
+    title: 'All Fours',
+    description: 'Four in a line 3D',
+    url: 'https://qw-all-fours-2.netlify.app',
+    icon: <Search className="w-8 h-8" />,
+    color: 'bg-violet-500',
+    darkColor: 'dark:bg-violet-600',
+  },
 ];
 
 function GameCard({ game }: { game: Game }) {
