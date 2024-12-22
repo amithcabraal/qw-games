@@ -79,7 +79,7 @@ const games: Game[] = [
   {
     title: '5x5',
     description: 'Find five 5-letter words hidden in the grid',
-    url: 'https://qw-5x5-2.netlify.app',
+    url: 'https://qw-five-by-five.netlify.app',
     icon: <Grid3x3 className="w-8 h-8" />,
     color: 'bg-rose-500',
     darkColor: 'dark:bg-rose-600',
