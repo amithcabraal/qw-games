@@ -202,7 +202,7 @@ function ThemeToggle({ isDark, toggle }: { isDark: boolean; toggle: () => void }
 
 function App() {
   const [isDark, setIsDark] = useState(() => {
-    if (typeof / !== 'undefined') {
+    if (typeof window !== 'undefined') {
       return localStorage.getItem('theme') === 'dark' ||
         (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
     }
