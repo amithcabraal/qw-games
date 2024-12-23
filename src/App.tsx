@@ -34,16 +34,16 @@ const games: Game[] = [
     color: 'bg-blue-500',
     darkColor: 'dark:bg-blue-600',
   },
-  /*
+  
   {
     title: 'Intro',
     description: 'How fast can you recognize these famous song intros?',
-    url: 'https://qw-intros.netlify.app',
+    url: 'https://qw-track.netlify.app/',
     icon: <Music className="w-8 h-8" />,
     color: 'bg-purple-500',
     darkColor: 'dark:bg-purple-600',
   },
-  */
+  
   {
     title: 'Chain',
     description: 'Create word chains by filling in the missing vowels',
@@ -55,11 +55,12 @@ const games: Game[] = [
   {
     title: 'Atlas',
     description: 'Challenge friends in this multiplayer geography adventure',
-    url: 'https://qw-atlas2.netlify.app',
+    url: 'https://qw-atlas4.netlify.app',
     icon: <Globe2 className="w-8 h-8" />,
     color: 'bg-indigo-500',
     darkColor: 'dark:bg-indigo-600',
   },
+  /*
   {
     title: 'Jumble',
     description: 'Race against others in this multiplayer word puzzle',
@@ -68,6 +69,7 @@ const games: Game[] = [
     color: 'bg-yellow-500',
     darkColor: 'dark:bg-yellow-600',
   },
+  */
   {
     title: 'Cross Tree',
     description: 'Strategic tree placement puzzle',
@@ -200,7 +202,7 @@ function ThemeToggle({ isDark, toggle }: { isDark: boolean; toggle: () => void }
 
 function App() {
   const [isDark, setIsDark] = useState(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof / !== 'undefined') {
       return localStorage.getItem('theme') === 'dark' ||
         (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
     }
