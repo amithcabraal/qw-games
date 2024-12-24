@@ -166,6 +166,15 @@ const games: Game[] = [
     color: 'bg-violet-500',
     darkColor: 'dark:bg-violet-600',
   },
+  {
+    title: 'Pipes',
+    description: 'Turn the tiles to connect the pipes',
+    url: 'https://qw-pipes.netlify.app',
+    icon: <Search className="w-8 h-8" />,
+    color: 'bg-violet-500',
+    darkColor: 'dark:bg-violet-600',
+  }
+
 ];
 
 function GameCard({ game }: { game: Game }) {
